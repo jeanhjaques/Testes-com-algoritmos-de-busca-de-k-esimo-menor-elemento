@@ -1,18 +1,21 @@
 import java.util.Arrays;
 import java.util.Random;
+import java.util.Scanner;
 public class Main{
+
+	/*
+	Implementado por:
+	Jean Henrique - 201619060485
+	Clara Sanabria - 201719060207
+
+	*/
 	public static void main(String[] args){
-		int vetorInteiros[] = {10,20,30,40,50,100,75};
 
-		System.out.println(Arrays.toString(vetorInteiros));
+		Scanner ler = new Scanner(System.in);
 
-		//System.out.println(KEsimoMenorElemento.randomizedSelect(vetorInteiros, 0, 6, 2));
+		System.out.println("Defina o valor de MAX: ");
+		int max = ler.nextInt();
 
-		//System.out.println(KEsimoMenorElemento.kEsimoOrdenando(vetorInteiros, 2));
-
-		//System.out.println(KEsimoMenorElemento.kEsimoUsandoHeapMin(vetorInteiros,2));
-
-		int max = 50;
 		Random random = new Random();
 
 

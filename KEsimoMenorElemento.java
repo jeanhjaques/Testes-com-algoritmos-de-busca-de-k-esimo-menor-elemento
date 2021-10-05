@@ -25,6 +25,9 @@ public class KEsimoMenorElemento{
 		return minHeap.remove();
 	}
 
+	//Usando randomizedSelect
+	//Este código foi feito seguindo o pseudo código do livro do Cormen 
+	//e mesmo assim está apresentando bugs
 	public static int randomizedSelect(int[] vetor, int p, int r, int k){
 		if(p == r){
 			return vetor[p];
@@ -70,7 +73,7 @@ public class KEsimoMenorElemento{
 		return partition(vetor, p, r);
 	}
 
-	/*
+	/*Usando Select
 	public static int select(vetor[], p, r, i){
 		//buscar em https://www.ime.usp.br/~pf/analise_de_algoritmos/aulas/median.html
 	}
