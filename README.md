@@ -20,6 +20,17 @@ lista de min-prioridades, imprimindo o valor do último elemento removido. Esse 
 para encontrar o k-ésimo menor elemento de A.
 Observe que você pode escolher qualquer algoritmo de ordenação por comparação que estudamos para implementar a estratégia 1.
 
+# Sobre o programa
+Você deve implementar os algoritmos conforme a descrição da seção 1, desenvolvendo um ou
+mais programas. Você deve construir conjuntos de dados de entrada (pseudo)aleatórios. Cada conjunto A deve ter n números inteiros escolhidos aleatoriamente, com n = 10, 20, ... , MAX, onde MAX é um valor escolhido pelo(a) usuário(a). Para cada conjunto com n números inteiros
+assim gerados, você também deve escolher aleatoriamente um número inteiro k, tal que 1 ≤ k ≤ n.
+Um conjunto A com n elementos assim gerado e um número k assim escolhido são chamados de
+caso de teste. Para cada caso de teste, você deve executar as quatro estratégias listadas na seção 1
+para encontrar o k-ésimo menor elemento desse conjunto A de n números inteiros.
+Para cada caso de teste, a saída consiste de uma primeira linha contendo os rótulos da quantidade de elementos n, índice k, k-ésimo menor elemento e a identificação de cada uma das estratégias. Cada linha a seguir contém o valor da quantidade de elementos n do caso de teste, o índice
+k sorteado, o k-ésimo menor elemento do vetor do caso de teste e os tempos gastos da execução
+de cada estratégia.
+
 # Requisitos para a execução
 - Java 8 ou superior
 # Como Executar
