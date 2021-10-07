@@ -1,6 +1,8 @@
 import java.util.*;
 
 public class Ordenacao {
+    //Códigoo reaproveitado da atividade anterior
+
 
     //BubleSort - Ordenacao em bolha
     public static int[] bubleSort(int[] vetor) {

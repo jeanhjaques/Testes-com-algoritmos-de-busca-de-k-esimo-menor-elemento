@@ -58,6 +58,5 @@ public class Main{
 
             System.out.println("     "+i+"          "+k+"        "+kEsimo+"       "+tempoOrdenacaoFormatado+"         "+tempoHeapFormatado);
 		}
-
 	}
 }

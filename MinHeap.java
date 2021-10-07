@@ -1,4 +1,5 @@
 class MinHeap {
+    //Código reaproveitado de outra disciplina.
  
     private int[] Heap;
     private int size;
